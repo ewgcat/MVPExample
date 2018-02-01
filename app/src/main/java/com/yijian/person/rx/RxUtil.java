@@ -1,20 +1,16 @@
-package com.yijian.person.util;
-
-import com.yijian.person.model.http.exception.ApiException;
-import com.yijian.person.model.http.response.BaseResponse;
+package com.yijian.person.rx;
 
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
 import io.reactivex.FlowableEmitter;
 import io.reactivex.FlowableOnSubscribe;
 import io.reactivex.FlowableTransformer;
+import io.reactivex.ObservableTransformer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Created by codeest on 2016/8/3.
- */
+
 public class RxUtil {
 
     /**
@@ -22,7 +18,7 @@ public class RxUtil {
      * @param <T>
      * @return
      */
-    public static <T> FlowableTransformer<T, T> rxSchedulerHelper() {    //compose简化线程
+    public static <T> FlowableTransformer<T, T> rxFlowableSchedulerHelper() {    //compose简化线程
         return new FlowableTransformer<T, T>() {
             @Override
             public Flowable<T> apply(Flowable<T> observable) {
@@ -51,4 +47,16 @@ public class RxUtil {
             }
         }, BackpressureStrategy.BUFFER);
     }
+
+    /**
+     * 统一线程处理
+     *
+     * @param <T>
+     * @return
+     */
+    public static <T> ObservableTransformer<T, T> rxObservableSchedulerHelper() {    //compose简化线程
+        return observable -> observable.subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread());
+    }
+
 }

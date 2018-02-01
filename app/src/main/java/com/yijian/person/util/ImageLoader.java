@@ -1,4 +1,4 @@
-package com.yijian.person.component;
+package com.yijian.person.util;
 
 import android.app.Activity;
 import android.content.Context;

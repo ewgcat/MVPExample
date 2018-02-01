@@ -1,9 +1,8 @@
-package com.yijian.person.component;
+package com.yijian.person.util;
 
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
-import android.support.design.widget.TabLayout;
 import android.util.Log;
 
 import com.tencent.smtt.sdk.QbSdk;
@@ -11,7 +10,6 @@ import com.yijian.person.application.CustomApplication;
 import com.yijian.person.model.db.DBManager;
 import com.github.moduth.blockcanary.BlockCanary;
 import com.squareup.leakcanary.LeakCanary;
-import com.yijian.person.util.Logger;
 import com.yijian.person.widget.AppBlockCanaryContext;
 
 

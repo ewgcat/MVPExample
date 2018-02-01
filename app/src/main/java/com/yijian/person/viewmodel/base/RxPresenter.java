@@ -1,8 +1,6 @@
 package com.yijian.person.viewmodel.base;
 
-import com.yijian.person.component.RxBus;
-import com.yijian.person.viewmodel.base.BasePresenter;
-import com.yijian.person.viewmodel.base.BaseView;
+import com.yijian.person.rx.RxBus;
 
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;

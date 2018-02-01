@@ -1,6 +1,4 @@
-package com.yijian.person.component;
-
-import com.yijian.person.util.RxUtil;
+package com.yijian.person.rx;
 
 import io.reactivex.Flowable;
 import io.reactivex.disposables.Disposable;
@@ -37,6 +35,6 @@ public class RxBus {
 
     // 封装默认订阅
     public <T> Disposable toDefaultFlowable(Class<T> eventType, Consumer<T> act) {
-        return bus.ofType(eventType).compose(RxUtil.<T>rxSchedulerHelper()).subscribe(act);
+        return bus.ofType(eventType).compose(RxUtil.<T>rxFlowableSchedulerHelper()).subscribe(act);
     }
 }

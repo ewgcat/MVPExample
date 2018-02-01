@@ -4,16 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.support.v7.app.AppCompatDelegate;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
 
-import com.tencent.smtt.sdk.QbSdk;
 import com.tencent.tinker.loader.app.TinkerApplication;
 import com.tencent.tinker.loader.shareutil.ShareConstants;
 
-import com.yijian.person.component.InitializeService;
+import com.yijian.person.util.InitializeService;
 import com.yijian.person.di.component.AppComponent;
 import com.yijian.person.di.component.DaggerAppComponent;
 import com.yijian.person.di.module.AppModule;

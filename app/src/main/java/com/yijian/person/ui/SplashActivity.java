@@ -18,10 +18,10 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.yijian.person.R;
-import com.yijian.person.component.ImageLoader;
 import com.yijian.person.model.bean.SplashBean;
+import com.yijian.person.rx.RxUtil;
+import com.yijian.person.util.ImageLoader;
 import com.yijian.person.util.NotificationsUtil;
-import com.yijian.person.util.Rx2Util;
 import com.yijian.person.viewmodel.base.BaseActivity;
 import com.yijian.person.viewmodel.splash.SplashContract;
 import com.yijian.person.viewmodel.splash.SplashPresenter;
@@ -70,9 +70,9 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements Spl
     @Override
     protected void initEventAndData() {
         mPresenter.getSplashInfo();
+
     }
 
-    @Override
     public void jumpToMain() {
         Intent intent = new Intent();
         intent.setClass(this,MainActivity.class);
@@ -81,6 +81,10 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements Spl
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 
+    @Override
+    public void checkPremession() {
+        initRxPermissions(index, permissions);
+    }
 
 
     @Override
@@ -91,11 +95,7 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements Spl
     }
 
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        initRxPermissions(index, permissions);
-    }
+
 
 
     /**
@@ -107,7 +107,7 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements Spl
                 .compose(rxPermissions.ensureEach(
                         permissions[i]
                 ))
-                .compose(Rx2Util.rxSchedulerHelper())
+                .compose(RxUtil.rxObservableSchedulerHelper())
                 .subscribe(permission -> {
                     index = i + 1;
                     if (permissions.length > index) {

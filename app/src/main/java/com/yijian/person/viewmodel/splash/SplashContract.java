@@ -12,11 +12,12 @@ public interface SplashContract {
     interface View extends BaseView {
 
         void showSplashView(SplashBean splashBean);
-        void jumpToMain();
+
+        void checkPremession();
 
     }
 
-    interface  Presenter extends BasePresenter<SplashContract.View> {
+    interface Presenter extends BasePresenter<SplashContract.View> {
 
 
         void getSplashInfo();

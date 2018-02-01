@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.support.v7.app.AppCompatDelegate;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
 
+import com.tencent.smtt.sdk.QbSdk;
 import com.tencent.tinker.loader.app.TinkerApplication;
 import com.tencent.tinker.loader.shareutil.ShareConstants;
 
@@ -58,6 +60,7 @@ public class CustomApplication extends TinkerApplication {
 
         //在子线程中完成其他初始化
         InitializeService.start(this);
+
     }
 
 

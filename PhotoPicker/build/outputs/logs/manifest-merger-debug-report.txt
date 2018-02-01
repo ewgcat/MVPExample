@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:2:11-39
+		INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+		INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:3:5-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:7:22-62
+application
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:9:5-18:19
+provider#me.iwf.photopicker.utils.PhotoFileProvider
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:10:9-17:20
+	android:grantUriPermissions
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:11:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:15:13-16:66
+	android:resource
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:16:17-64
+	android:name
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml:15:24-74
+uses-sdk
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+		INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+		ADDED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml
+		INJECTED from /Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/src/main/AndroidManifest.xml

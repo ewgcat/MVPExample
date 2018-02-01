@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/res/merged/androidTest/debug/values-ar/values-ar.xml",
+            "map": [
+                {
+                    "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ar/values-ar.xml",
+            "map": [
+                {
+                    "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

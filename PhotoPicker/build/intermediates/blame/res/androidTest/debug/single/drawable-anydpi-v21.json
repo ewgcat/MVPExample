@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/109e56059a2fa2b2af6a46e8986e16bf/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/109e56059a2fa2b2af6a46e8986e16bf/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

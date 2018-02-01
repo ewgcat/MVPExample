@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

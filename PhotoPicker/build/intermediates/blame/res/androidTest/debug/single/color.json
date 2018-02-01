@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/109e56059a2fa2b2af6a46e8986e16bf/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_tint_default.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/design_error.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/109e56059a2fa2b2af6a46e8986e16bf/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd8d3c5283034c2bc5c37c1dada8d907/res/color/abc_primary_text_disable_only_material_dark.xml"
+    }
+]

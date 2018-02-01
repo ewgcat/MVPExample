@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/photoview-master/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    }
+]

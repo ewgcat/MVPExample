@@ -1,0 +1,128 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+apply from: 'tinker-support.gradle'
+apply plugin: 'bugly'
+
+bugly {
+    appId = '900013902' // 注册时分配的App ID
+    appKey = 'Vp7sR54WzzmQIMkx' // 注册时分配的App Key
+}
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+    lintOptions {
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        applicationId rootProject.applicationId
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+        flavorDimensions '' + rootProject.versionCode
+        resConfigs "zh"
+        multiDexEnabled true
+        renderscriptTargetApi 23
+        renderscriptSupportModeEnabled true
+        javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
+        ndk {
+            abiFilters "armeabi", "x86"
+        }
+        //极光推送
+        manifestPlaceholders = [
+                JPUSH_PKGNAME  : applicationId,
+                JPUSH_APPKEY   : "$jpush_appkey_prod",
+                JPUSH_CHANNEL  : "developer-default", //暂时填写默认值即可
+                QQ_QZONE_SCHEME: "$QQ_QZONE_SCHEME"
+        ]
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        google {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "google"]
+        }
+    }
+
+}
+greendao {
+    schemaVersion rootProject.dbVersion
+    daoPackage 'com.yijian.person.greendao.gen'
+    targetGenDir 'src/main/java'
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':okhttputils')
+    implementation project(':PhotoPicker')
+    implementation project(':photoview-master')
+    implementation project(':sharelib')
+
+    implementation "com.android.support:support-annotations:${rootProject.supportLibVersion}"
+    compile "com.android.support:appcompat-v7:${rootProject.supportLibVersion}"
+    compile "com.android.support:cardview-v7:${rootProject.supportLibVersion}"
+    compile "com.android.support:recyclerview-v7:${rootProject.supportLibVersion}"
+    compile "com.android.support:design:${rootProject.supportLibVersion}"
+    compile 'com.android.support:multidex:1.0.2'
+    //ui
+    compile 'com.prolificinteractive:material-calendarview:1.4.0'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    compile 'net.opacapp:multiline-collapsingtoolbar:1.3.1'
+    compile 'com.github.chrisbanes:PhotoView:1.3.0'
+    compile 'jp.wasabeef:glide-transformations:1.2.1'
+    compile 'org.sufficientlysecure:html-textview:3.1'
+    compile 'com.google.android:flexbox:0.3.1'
+    //rx
+    compile 'io.reactivex.rxjava2:rxjava:2.1.3'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    //network
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.5.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
+    compile 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+    compile 'org.jsoup:jsoup:1.10.1'
+    //di
+    compile 'com.google.dagger:dagger:2.5'
+    annotationProcessor "com.google.dagger:dagger-compiler:2.5"
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.8.1"
+    compile 'org.glassfish:javax.annotation:10.0-b28'
+    //other
+    compile 'com.android.support:multidex:1.0.2'
+    compile 'me.yokeyword:fragmentation:0.10.4'
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    compile 'cn.jiguang.sdk:jpush:latest.release'
+    compile 'cn.jiguang.sdk:jcore:latest.release'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    //canary
+    debugCompile 'com.github.moduth:blockcanary-android:1.2.1'
+    releaseCompile 'com.github.moduth:blockcanary-no-op:1.2.1'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    //操作数据库
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'org.greenrobot:greendao-generator:3.2.2'
+    //底部导航
+    compile 'com.ycl.tabview.library:tabviewlibrary:1.0'
+
+}

@@ -1,0 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+buildscript {
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        flatDir {
+            dirs 'libs'
+        }
+
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
+        classpath "com.tencent.bugly:tinker-support:latest.release"
+        classpath 'com.tencent.bugly:symtabfileuploader:latest.release'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        flatDir {
+            dirs 'libs'
+        }
+
+        google()
+    }
+}
+ext {
+
+    minSdkVersion = 19
+    targetSdkVersion = 25
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+    applicationId = "com.yijian.person"
+    versionCode = 1
+    versionName = "1.0.0"
+    supportLibVersion = "27.0.2"
+    designVersion = "27.0.2"
+    dbVersion = 1
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

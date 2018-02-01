@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/lishuaihua/Desktop/MVPDemo/PhotoPicker/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/lishuaihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6dec63a1edb38cd19072c137edfea9b9/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,4 +1,4 @@
-### MVP + RxJava2 + Retrofit2 + Dagger2 + Butterknife+GreenDao+ Glide4.5
+### MVP + RxJava2 + Retrofit2 + Dagger2 + Butterknife+GreenDao+ Glide4.5+Bugly+RxBus
 
 * IDE提示缺少Dagger开头的Class直接编译即可，会由Dagger2自动生成
 * 本项目仅做学习交流使用，请勿用于其他用途

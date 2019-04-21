@@ -1,3 +1,5 @@
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+
 ### MVP + RxJava2 + Retrofit2 + Dagger2 + Butterknife+GreenDao+ Glide4.5+Bugly+RxBus
 
 * IDE提示缺少Dagger开头的Class直接编译即可，会由Dagger2自动生成
